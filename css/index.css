@@ -168,7 +168,7 @@
     color: #1F1F1D;
 }
 
-.first__section__image {
+.section__image {
     display: flex;
     justify-content: space-between;
 }
@@ -217,3 +217,39 @@
     background-color: black;
 }
 
+.second__section__background__text {
+    font-family: Kanit;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 34px;
+    line-height: 51px;
+    color: #FFFFFF;
+    text-transform: uppercase;
+    width: 335px;
+    height: 51px;
+}
+
+.btn__subscribe__now {
+    font-family: Kanit;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 21px;
+    text-align: center;
+    color: #FFFFFF;
+    background-color: black;
+    border: 1px solid white;
+    width: 198px;
+    height: 42px;
+    text-transform: uppercase;
+}
+
+.interviews {
+    font-family: Kanit;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 27px;
+    color: #1F1F1D;
+    text-transform: uppercase;
+}
