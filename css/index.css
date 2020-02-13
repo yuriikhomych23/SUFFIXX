@@ -97,11 +97,23 @@
 
 /* CONTAINER */
 
-.container {
+.container__first {
     width: 100%;
     max-width: 1220px;
     margin: 0 auto;
 }
+.container__second {
+    width: 100%;
+    max-width: 1220px;
+    margin: 0 auto;
+}
+
+.container__third {
+    width: 100%;
+    max-width: 1220px;
+    margin: 0 auto;
+}
+
 
 /* SECTION FIRST */
 
@@ -333,11 +345,23 @@
     }
 }
 
-@media (max-width: 970px) {
+@media (max-width: 970px) {   
+    .container__first {
+        width: 100%;
+        height: 1200px;
+    }
     .first__section__image__main {
-        width: 557px;
-        height: 368px;
-
+        display: flex;
+        justify-content: space-around;
+    }
+    .screen {
+        width: 455px;
+        height: 302px;
+    }
+    .biocarbon {
+        width: 455px;
+        height: 302px;
     }
 }
+
 
