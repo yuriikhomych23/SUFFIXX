@@ -101,17 +101,20 @@
     width: 100%;
     max-width: 1220px;
     margin: 0 auto;
+    padding: 0 63px;
 }
 .container__second {
     width: 100%;
     max-width: 1220px;
     margin: 0 auto;
+    padding: 0 63px;
 }
 
 .container__third {
     width: 100%;
     max-width: 1220px;
     margin: 0 auto;
+    padding: 0 63px;
 }
 
 
@@ -309,7 +312,7 @@
 
 /* INTRO */
 
-@media (max-width: 970px) {
+@media (max-width: 1220px) {
 
     .philip__martin {
         width: 620px;
@@ -345,23 +348,7 @@
     }
 }
 
-@media (max-width: 970px) {   
-    .container__first {
-        width: 100%;
-        height: 1200px;
-    }
-    .first__section__image__main {
-        display: flex;
-        justify-content: space-around;
-    }
-    .screen {
-        width: 455px;
-        height: 302px;
-    }
-    .biocarbon {
-        width: 455px;
-        height: 302px;
-    }
-}
+
+@media (max-width: )
 
 
